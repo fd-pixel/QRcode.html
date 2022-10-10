@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: hsl(212, 45%, 89%);
   display: flex;
@@ -5,12 +8,13 @@ body {
   justify-content: center;
   font-family: "Outfit", sans-serif;
   font-weight: 400;
+  min-height: 100vh;
 }
 .card {
   padding: 1rem;
   border-radius: 40px;
   background-color: #fff;
-  margin-top: 4rem;
+  max-width: 372px;
   text-align: center;
 }
 .image {
@@ -27,4 +31,5 @@ body {
 }
 .second-text {
   font-weight: 700;
+  margin: 0 3rem;
 }
