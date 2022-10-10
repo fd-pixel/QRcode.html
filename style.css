@@ -30,7 +30,7 @@ body {
   font-weight: 700;
 }
 .second-text {
-  font-weight: 700;
+  font-weight: 400;
   margin: 0 3rem;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -38,7 +38,7 @@ body {
    License: none (public domain)
 */
 
-html,
+/* html,
 body,
 div,
 span,
@@ -125,9 +125,9 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-}
+} */
 /* HTML5 display-role reset for older browsers */
-article,
+/* article,
 aside,
 details,
 figcaption,
@@ -161,4 +161,4 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
+} */
